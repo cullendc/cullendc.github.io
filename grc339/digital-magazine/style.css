@@ -17,15 +17,18 @@ header{
 }
 
 header h1{
-    max-width: 8em;
+    max-width: 20em;
+    height: auto;
     padding: 0.5em 0em 0.75em 0em;
 }
 
 h2{
-    font-family: serif;
+    font-family: "moby", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-style: normal;
     font-size: 2em;
-    font-weight: bold;
-    color: #426c8a;
+    color: #161a1d;
     margin: 0em 0.4em;
     padding-top: 0.2em;
 }
@@ -39,7 +42,7 @@ section.main h2 {
 
 section.tertiary h2 {
     font-size: 1.2em;
-    border-top: .75px solid #426c8a;
+    border-top: 1px solid #e63946;
     margin: 0em 0.5em;
     padding-top: 0.5em;
 }
@@ -54,22 +57,28 @@ nav ul li {
 }
 
 nav ul li a {
-    color: #426c8a;
-    font-family: sans-serif;
-    font-weight: bold;
+    font-family: "moby", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: #161a1d;
     padding: 1em 2em 1em 0em;
 }
 
 figcaption {
+    font-family: "dico-sans-soft", sans-serif;
+    font-weight: 400;
     font-style: italic;
     font-size: 1em;
     margin: 0.75em;
     padding: 0em 0em 1em 0em;
-    color: #5e5e5e;
+    color: #e63946;
 }
 
 p{
-    color: #000000;
+    font-family: "dico-sans-soft", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #161a1d;
     line-height: 1.2em;
     font-family: sans-serif;
     padding: 0.2em 0em 0em 0em;
@@ -81,7 +90,7 @@ a{
 }
 
 aside {
-    background-color: #bec4f0;
+    background-color: #e63946;
     padding: 0.5em;
 }
 
@@ -91,8 +100,8 @@ aside section h2 {
 }
 
 footer {
-    background-color: #426c8a;
-    color: #ffff;
+    background-color: #161a1d;
+    color: #e63946;
     padding: 0.75em;
     height: 2em;
     box-sizing: border-box;
